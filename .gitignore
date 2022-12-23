@@ -1,0 +1,25 @@
+# IDE开发环境
+/.idea/
+/.vscode/
+
+# 日志
+*.log
+
+# git命令脚本
+gitpush.sh
+gitpush.bat
+
+# 项目目录
+/config/
+/runtime/
+/vendor/
+
+# 其它文件
+*.DS_Store
+azure.txt
+composer.lock
+
+# 公共文件
+public/upload
+
+test.php

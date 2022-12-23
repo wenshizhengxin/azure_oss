@@ -1,0 +1,23 @@
+{
+    "name": "wenshizhengxin/azure_oss",
+    "description": "微软云对象存储（OSS）插件",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Temple Chan",
+            "email": "1421224516@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "cmq2080/mime_type_getter": "~1.0.0",
+        "microsoft/azure-storage": "^0.19.1",
+        "microsoft/windowsazure": "^0.5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "wenshizhengxin\\azure_oss\\": "src/"
+        }
+    }
+}
